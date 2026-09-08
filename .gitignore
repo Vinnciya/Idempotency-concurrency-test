@@ -1,0 +1,49 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Testing & Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Build & Output
+dist/
+build/
+*.egg-info/
+
+# Databases & Local state
+*.db
+*.sqlite
+*.sqlite3
+
+# Tooling / Archives
+mingit.zip
+mingit/
+
+# Logs & Environment
+*.log
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
